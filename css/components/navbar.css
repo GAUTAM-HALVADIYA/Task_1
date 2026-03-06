@@ -1,0 +1,38 @@
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav .logo{
+    height: 88px;
+    width: 323px;
+}
+
+.nav .link{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav li{
+    height: 38px;
+    width: 105px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.nav .btn{
+    width: 148px;
+    height: 59px;
+    background-color: #F48533;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: 500;
+}
