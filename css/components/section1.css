@@ -1,0 +1,53 @@
+.section1 {
+    background-color: #235ea9cc;
+    height: 658px;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.text {
+    color: white;
+    width: 614px;
+    height: 442px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    letter-spacing: 1.5px;
+    padding: 20px 0px;
+}
+
+.text .md {
+    font-size: 32px;
+    font-weight: 500;
+}
+.text .lg {
+    font-size: 48px;
+    font-weight: 700;
+}
+.text .sm {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.text .btn {
+    width: 212px;
+    height: 80px;
+    border: none;
+    background-color: #f48533;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text img {
+    width: 614px;
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+    width: 1318px;
+    align-items: center;
+}

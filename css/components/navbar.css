@@ -3,7 +3,9 @@
 .nav{
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 6px;
 }
 
 .nav .logo{
@@ -11,19 +13,19 @@
     width: 323px;
 }
 
-.nav .link{
+.nav .list{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 
 }
 
 .nav li{
     height: 38px;
-    width: 105px;
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
+    /* border: #F48533 solid 2px; */
+   line-height: 38px;
+    
 }
 
 .nav .btn{
@@ -35,4 +37,23 @@
     border-radius: 9px;
     font-size: 20px;
     font-weight: 500;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.329);
+    
+}
+
+.nav .link{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+   
+
 }

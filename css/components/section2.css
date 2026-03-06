@@ -1,0 +1,58 @@
+.section2 {
+    height: 658px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 1318px;
+}
+
+.card{
+    width: 321px;
+    height: 459px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+.card p:nth-child(1){
+    font-size: 36px;
+    width: 228px;
+    padding: 15px 0px 10px 0px;
+    margin: auto;
+}
+
+.card p:nth-child(3){
+    font-size: 20px;
+    height: 305px;
+    width: 240px;
+    margin: auto;
+
+}
+
+.card hr{
+    width: 106px;
+    color: white;
+    margin: auto;
+}
+
+.card1{
+    background-color: #F17C21B2;
+    
+}
+.card2{
+    background-color: #FF2263B2;
+}
+.card3{
+    background-color: #2346A0B2;
+}
+.card4{
+    background-color: #989B10B2;
+}
+

@@ -1,14 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import "./components/navbar.css";
+@import "./components/section1.css";
+@import "./components/section2.css";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.container{
-    position: relative;
-    left: 300px;
-    right: 300px;
+.container {
+    max-width: 1318px;
+    margin: auto;
 }
-
