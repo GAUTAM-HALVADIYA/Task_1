@@ -2,6 +2,8 @@
 @import "./components/navbar.css";
 @import "./components/section1.css";
 @import "./components/section2.css";
+@import "./components/section3.css";
+@import "./components/price.css";
 
 * {
     margin: 0px;

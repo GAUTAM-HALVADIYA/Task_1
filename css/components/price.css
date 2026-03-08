@@ -1,0 +1,149 @@
+.pricing{
+    background:#F7F7F7;
+    padding:80px 0;
+    
+    
+}
+
+.pricing-title{
+   
+    font-size:40px;
+    margin-bottom:25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.pricing-title span{
+    color:#F17C21;
+}
+
+.toggle{
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    margin-bottom:70px;
+    width: 193px;
+    height: 48px;
+    border-radius: 27px;
+    box-shadow: 0px 3px 5px #183B5633;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+
+.toggle button{
+    padding:4px 16px;
+    border-radius:16px;
+    border:none;
+    background:#ffffff;
+    cursor:pointer;
+    width: 99px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.toggle .active{
+    background:#F17C21;
+    color:white;
+}
+.toggle .inactive{
+    background:#ffffff;
+    color:#627065;
+    padding:4px 9px;
+    width: 70px;
+    height: 32px;
+}
+
+
+
+.price-cards{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+}
+
+.price-card{
+    background:white;
+    width:283.5px;
+    height: 385px;
+    padding:42px 24px;
+    text-align:center;
+    border-radius:4px;
+}
+
+.price-card h3{
+    font-size:28px;
+    font-weight: 500;
+}
+
+.price-card .desc{
+    font-size:16px;
+    margin:10px 0 20px;
+    font-weight: 400;
+}
+
+.price-card h1{
+    font-size:40px;
+    margin-bottom:20px;
+    font-weight: 600;
+}
+
+.price-card span{
+    font-size:16px;
+}
+
+.recommended{
+    background:#F17C210D;
+    position:relative;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.badge{
+    position:absolute;
+    top:-32px;
+    left:0;
+    right:0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin:auto;
+    background:#F17C21;
+    color:white;
+    padding:4px 8px;
+    font-size:14px;
+    width:283px;
+    height: 32px;
+}
+
+
+.enterprise{
+    background:#F17C210D;
+    border: #F17C21 1px solid;
+}
+
+.btn-main{
+    background:#f17c21;
+    color:white;
+    border:none;
+    padding:8px 17px;
+    border-radius:8px;
+    width: 138px;
+    height: 43px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-outline{
+    border:1px solid #333;
+    background:white;
+    padding:8px 17px;
+    border-radius:8px;
+    
+    font-size: 18px;
+    font-weight: 500;
+}
