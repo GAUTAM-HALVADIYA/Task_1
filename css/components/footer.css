@@ -1,0 +1,125 @@
+.footer {
+    background-color: black;
+    height: 586px;
+    color: white;
+}
+
+.footer .logo-text {
+    height: 241px;
+    width: 562px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-text img {
+    width: 360px;
+    height: 112px;
+}
+
+.logo-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.footer .news-box {
+    width: 646px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.news-box h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.subscribe {
+    border: 2px solid white;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe input {
+    all: unset;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 30px;
+    padding: 0px 10px;
+    width: 50%;
+}
+
+.footer input::placeholder {
+    color: white;
+}
+
+.subscribe button {
+    font-size: 20px;
+    font-weight: 500;
+    height: 70px;
+    width: 222px;
+    background-color: #f17c21;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    margin: 5px;
+}
+
+.social-info {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+}
+.social-info p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.social-media {
+    width: 219px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media div {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #f17c21;
+    position: relative;
+}
+.social-media a {
+    position: absolute;
+    top: 58%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.social-media i {
+    display: inline-block;
+    color: white;
+}
+.social-media div:hover {
+    
+    background-color: rgb(199, 64, 64);
+}
+
+
+
+.footer .alignment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.footer .container {
+    height: 586px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

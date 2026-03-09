@@ -1,6 +1,8 @@
 .pricing{
     background:#F7F7F7;
-    padding:80px 0;
+    padding:50px 0;
+    height: 726.34033203125px;
+    
     
     
 }
@@ -147,3 +149,17 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+.btn-outline:hover{
+    color: white;
+    background:black;
+   
+}
+.btn-main:hover{
+    color: white;
+    background:rgb(74, 151, 122);
+   
+}
+
+
+

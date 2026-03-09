@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css');
 @import "./components/navbar.css";
 @import "./components/section1.css";
 @import "./components/section2.css";
 @import "./components/section3.css";
 @import "./components/price.css";
+@import "./components/section4.css";
+@import "./components/footer.css";
 
 * {
     margin: 0px;
