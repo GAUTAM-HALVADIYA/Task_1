@@ -91,19 +91,19 @@
     height: 48px;
     border-radius: 24px;
     background-color: #f17c21;
-    position: relative;
-}
-.social-media a {
-    position: absolute;
-    top: 58%;
-    left: 51%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+
 .social-media i {
-    display: inline-block;
     color: white;
+    width: 25px;
+    height: 25px;
 }
+
 .social-media div:hover {
     
     background-color: rgb(199, 64, 64);
